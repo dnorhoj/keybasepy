@@ -1,0 +1,94 @@
+[[package]]
+category = "main"
+description = "Easily serialize dataclasses to and from JSON"
+name = "dataclasses-json"
+optional = false
+python-versions = ">=3.6"
+version = "0.3.6"
+
+[package.dependencies]
+marshmallow = ">=3.0.1,<4.0.0"
+marshmallow-enum = ">=1.5.1,<2.0.0"
+stringcase = "1.2.0"
+typing-inspect = ">=0.4.0"
+
+[[package]]
+category = "main"
+description = "A lightweight library for converting complex datatypes to and from native Python datatypes."
+name = "marshmallow"
+optional = false
+python-versions = ">=3.5"
+version = "3.2.2"
+
+[[package]]
+category = "main"
+description = "Enum field for Marshmallow"
+name = "marshmallow-enum"
+optional = false
+python-versions = "*"
+version = "1.5.1"
+
+[package.dependencies]
+marshmallow = ">=2.0.0"
+
+[[package]]
+category = "main"
+description = "Experimental type system extensions for programs checked with the mypy typechecker."
+name = "mypy-extensions"
+optional = false
+python-versions = "*"
+version = "0.4.3"
+
+[[package]]
+category = "main"
+description = "Officially supported Keybase python bot client library"
+name = "pykeybasebot"
+optional = false
+python-versions = ">=3.7,<4.0"
+version = "0.1.6"
+
+[package.dependencies]
+dataclasses-json = ">=0.3.2,<0.4.0"
+typing-extensions = ">=3.7,<4.0"
+
+[[package]]
+category = "main"
+description = "String case converter."
+name = "stringcase"
+optional = false
+python-versions = "*"
+version = "1.2.0"
+
+[[package]]
+category = "main"
+description = "Backported and Experimental Type Hints for Python 3.5+"
+name = "typing-extensions"
+optional = false
+python-versions = "*"
+version = "3.7.4.1"
+
+[[package]]
+category = "main"
+description = "Runtime inspection utilities for typing module."
+name = "typing-inspect"
+optional = false
+python-versions = "*"
+version = "0.5.0"
+
+[package.dependencies]
+mypy-extensions = ">=0.3.0"
+typing-extensions = ">=3.7.4"
+
+[metadata]
+content-hash = "cc97a317d5848aa7eed2d2e3f899ba65c85ea906e2ea12dc9e28d60a4d66f02c"
+python-versions = "^3.7"
+
+[metadata.hashes]
+dataclasses-json = ["616876ac06ca3a8f2ae977a4e044850e81dbd3f86a404430b783e12f017b75b5", "ebdf7407681763d6125fd00d15ed037cc3aa6f9129fe7634e8f891410e89559f"]
+marshmallow = ["1a358beb89c2b4d5555272065a9533591a3eb02f1b854f3c4002d88d8f2a1ddb", "eb97c42c5928b5720812c9268865fe863d4807bc1a8b48ddd7d5c9e1779a6af0"]
+marshmallow-enum = ["38e697e11f45a8e64b4a1e664000897c659b60aa57bfa18d44e226a9920b6e58", "57161ab3dbfde4f57adeb12090f39592e992b9c86d206d02f6bd03ebec60f072"]
+mypy-extensions = ["090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d", "2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"]
+pykeybasebot = ["4d06ab13d17be9a9bb2728d29c810ebb6a5cfd37c524d05f4e7d92026cb154ea", "eb2b3966790e20b84af7230069fb404a81d047c36f411153cfa75876220d38dd"]
+stringcase = ["48a06980661908efe8d9d34eab2b6c13aefa2163b3ced26972902e3bdfd87008"]
+typing-extensions = ["091ecc894d5e908ac75209f10d5b4f118fbdb2eb1ede6a63544054bb1edb41f2", "910f4656f54de5993ad9304959ce9bb903f90aadc7c67a0bef07e678014e892d", "cf8b63fedea4d89bab840ecbb93e75578af28f76f66c35889bd7065f5af88575"]
+typing-inspect = ["75c97b7854426a129f3184c68588db29091ff58e6908ed520add1d52fc44df6e", "811b44f92e780b90cfe7bac94249a4fae87cfaa9b40312765489255045231d9c", "c6ed1cd34860857c53c146a6704a96da12e1661087828ce350f34addc6e5eee3"]
